@@ -33,7 +33,6 @@ public class LogicTest {
         logic.move(Cell.C1, Cell.H6);
     }
 
-    @Ignore
     @Test(expected = IllegalStateException.class)
     public void moveImpossible()
             throws FigureNotFoundException, OccupiedCellException, ImpossibleMoveException {
